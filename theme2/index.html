@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hesap Makinesi</title>
+  <link rel="stylesheet" href="assets/css/calculator.css">
+  <link rel="icon" href="assets/img/calculatorLogo.png" type="image/x-icon" />
+  <script src="../assets/js/calculator.js" defer></script>
+</head>
+<body>
+    <div class="calculator">
+      <div class="header">
+        <div class="logo">
+          <img src="assets/img/calculatorLogo.png" alt="">
+          <h1>Hesap Makinesi</h1>
+        </div>
+        <div class="theme">
+          <h3>Tema</h3>
+          <div class="theme-toggle">
+            <input id="1" name="theme" type="radio" />
+            <label for="1" onclick="window.location='../index.html';" ></label>
+            <input id="2" name="theme" type="radio" checked />
+            <label for="2" onclick="window.location='index.html';"></label>
+            <input id="3" name="theme" type="radio" />
+            <label for="3" onclick="window.location='../theme3/index.html';"></label>
+          </div>
+        </div>
+      </div>
+      <div class="sonuc">
+        <h1></h1>
+      </div>
+
+      <div class="keyboard">
+        <button class="key">7</button>
+        <button class="key">8</button>
+        <button class="key">9</button>
+        <button class="key del">DEL</button>
+        <button class="key">4</button>
+        <button class="key">5</button>
+        <button class="key">6</button>
+        <button class="key">+</button>
+        <button class="key">1</button>
+        <button class="key">2</button>
+        <button class="key">3</button>
+        <button class="key">-</button>
+        <button class="key">.</button>
+        <button class="key">0</button>
+        <button class="key">/</button>
+        <button class="key">*</button>
+        <button class="reset">RESET</button>
+        <button class="esit">=</button>
+      </div>
+
+    </div>
+</body>
+</html>
